@@ -8,7 +8,7 @@
 }
 
 .body{
-    background-color:rgb(34, 96, 118)
+    background-color:rgb(238, 238, 238)
 }
 .login-form{
     background-color: rgb(255, 255, 255);
@@ -158,12 +158,78 @@
     margin: 0 auto;
 }
 
+
+/* LIST */
+
+.list-title{
+    width:90%;
+    max-width: 1300px;
+    margin: 0 auto;
+    font-weight: 500;
+    color: rgb(35, 35, 35);
+    padding: 50px 0 30px 0;
+}
+
+.main-section-list{
+    background-color: rgb(255, 255, 255);
+    width:90%;
+    max-width: 1300px;
+    margin: 0 auto;
+/*     padding: 30px; */
+    border-radius: 7px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.ul-titles{
+    display: grid;
+    grid-template-columns: 3% 1fr 1fr 1fr 10% 5%;
+    font-weight: 500;
+    color: rgb(151, 151, 151);
+    padding: 30px 25px 10px 25px;
+    border-bottom: solid 1px rgb(211, 211, 211);
+}
+
+.ul-data{
+    display: grid;
+    grid-template-columns: 3% 1fr 1fr 1fr 10% 5%; 
+    padding: 25px;
+    border-bottom: solid 1px rgb(211, 211, 211);
+    align-items: center;
+}
+
+.main-section-list ul li{
+    list-style: none;
+}
+
+.edit-button button{
+    padding: 10px 30px;
+    background-color: rgb(54, 190, 202);
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.id-li{
+    color: rgb(38, 132, 141);
+}
+
 /* HOVERS */
 
 .div-buttons-home button:hover{
     background-color: rgba(22, 57, 71, 0.66);
     color: white;
     cursor:pointer;
+}
+
+.ul-data:hover{
+    background-color: rgba(54, 190, 202, 0.089);
+}
+
+.edit-button button:hover{
+    background-color: rgb(38, 132, 141);
 }
 
 
@@ -206,5 +272,7 @@
     .article-professionals{
         padding:0;
     }
+
+    /* LIST */
 
 }
