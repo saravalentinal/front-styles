@@ -16,79 +16,178 @@
 
     <main>
 
-        <h1 class="list-title">Profesionales</h1>
+        <nav>
+            <h1 class="list-title">Profesionales</h1>
+            <a href="/homeAdmin.html" class="home-icon"><i class="fa-solid fa-house"></i></a>
+        </nav>
+        
 
         <section class="main-section-list">
 
+
             <ul class="ul-titles">
-                <li></li>
+                <li class="empty-li"></li>
                 <li>Nombre</li>
-                <li>Contacto</li>
-                <li>Profesión</li>
+                <li class="hide-contact">Contacto</li>
+                <li class="hide">Profesión</li>
             </ul>
 
-            <ul class="ul-data">
-                <li class="id-li">#1</li>
-                <li>Sara Valentina Latyn</li>
-                <li>+4917683715028</li>
-                <li>Programadora Web Full Stack</li>
-                <li class="edit-button"><button type="button">Editar</button></li>
-                <li class="li-buttons"><button type="button"><i class="fa-solid fa-ellipsis"></i></button></li>
-            </ul>     
 
-            <ul class="ul-data">
-                <li class="id-li">#1</li>
-                <li>Sara Valentina Latyn</li>
-                <li>+4917683715028</li>
-                <li>Programadora Web Full Stack</li>
-                <li class="edit-button"><button type="button">Editar</button></li>
-                <li class="li-buttons"><button type="button"><i class="fa-solid fa-ellipsis"></i></button></li>
-            </ul> 
+            <ul id="accordion">
+                <li>
+                    <label for="first" class="ul-data">
+                        
+                        <p class="id-li">#1</p>
+                        <p>Sara Valentina Latyn</p>
+                        <p class="hide-contact">+4917683715028</p>
+                        <p class="hide">Programadora Web Full Stack</p>
+                        <p class="edit-button"><button type="button">Editar</button></p>                 
+                        <span class="more-span"><i class="fa-solid fa-ellipsis"></i></span>
 
-            <ul class="ul-data">
-                <li class="id-li">#1</li>
-                <li>Sara Valentina Latyn</li>
-                <li>+4917683715028</li>
-                <li>Programadora Web Full Stack</li>
-                <li class="edit-button"><button type="button">Editar</button></li>
-                <li class="li-buttons"><button type="button"><i class="fa-solid fa-ellipsis"></i></button></li>
-            </ul> 
+                    </label>
 
-            <ul class="ul-data">
-                <li class="id-li">#1</li>
-                <li>Sara Valentina Latyn</li>
-                <li>+4917683715028</li>
-                <li>Programadora Web Full Stack</li>
-                <li class="edit-button"><button type="button">Editar</button></li>
-                <li class="li-buttons"><button type="button"><i class="fa-solid fa-ellipsis"></i></button></li>
-            </ul> 
+                    <input type="radio" name="accordion" id="first">
+                    <div class="content">
 
-            <ul class="ul-data">
-                <li class="id-li">#1</li>
-                <li>Sara Valentina Latyn</li>
-                <li>+4917683715028</li>
-                <li>Programadora Web Full Stack</li>
-                <li class="edit-button"><button type="button">Editar</button></li>
-                <li class="li-buttons"><button type="button"><i class="fa-solid fa-ellipsis"></i></button></li>
-            </ul> 
+                            <p><span>Nombre y Apellido</span> Sara Valentina Latyn</p>
+                            <p><span>DNI</span> 123456789</p>
+                            <p><span>Email</span> latynsara@gmail.com</p>
+                            <p><span>Número de teléfono</span> 123456789</p>
+                            <p><span>Fecha de Nacimiento</span> 05/07/1997</p>
+                            <p><span>Sure</span> ?????</p>
+                            <p><span>Matrícula</span> ?????</p>
+                            <p><span>CBU</span> 73593753438749742</p>
+                            <p><span>Fee</span> $49873</p>
+                            <p><span>Profesión</span> Programadora</p>
 
-            <ul class="ul-data">
-                <li class="id-li">#1</li>
-                <li>Sara Valentina Latyn</li>
-                <li>+4917683715028</li>
-                <li>Programadora Web Full Stack</li>
-                <li class="edit-button"><button type="button">Editar</button></li>
-                <li class="li-buttons"><button type="button"><i class="fa-solid fa-ellipsis"></i></button></li>
-            </ul> 
+                    </div>
+                </li>
+            </ul>
 
-            <ul class="ul-data">
-                <li class="id-li">#1</li>
-                <li>Sara Valentina Latyn</li>
-                <li>+4917683715028</li>
-                <li>Programadora Web Full Stack</li>
-                <li class="edit-button"><button type="button">Editar</button></li>
-                <li class="li-buttons"><button type="button"><i class="fa-solid fa-ellipsis"></i></button></li>
-            </ul> 
+            <ul id="accordion">
+                <li>
+                    <label for="second" class="ul-data">
+                        
+                        <p class="id-li">#1</p>
+                        <p>Sara Valentina Latyn</p>
+                        <p class="hide-contact">+4917683715028</p>
+                        <p class="hide">Programadora Web Full Stack</p>
+                        <p class="edit-button"><button type="button">Editar</button></p>                 
+                        <span class="more-span"><i class="fa-solid fa-ellipsis"></i></span>
+
+                    </label>
+
+                    <input type="radio" name="accordion" id="second">
+                    <div class="content">
+
+                            <p><span>Nombre y Apellido</span> Sara Valentina Latyn</p>
+                            <p><span>DNI</span> 123456789</p>
+                            <p><span>Email</span> latynsara@gmail.com</p>
+                            <p><span>Número de teléfono</span> 123456789</p>
+                            <p><span>Fecha de Nacimiento</span> 05/07/1997</p>
+                            <p><span>Sure</span> ?????</p>
+                            <p><span>Matrícula</span> ?????</p>
+                            <p><span>CBU</span> 73593753438749742</p>
+                            <p><span>Fee</span> $49873</p>
+                            <p><span>Profesión</span> Programadora</p>
+
+                    </div>
+                </li>
+            </ul>
+
+    
+            <ul id="accordion">
+                <li>
+                    <label for="third" class="ul-data">
+                        
+                        <p class="id-li">#1</p>
+                        <p>Sara Valentina Latyn</p>
+                        <p class="hide-contact">+4917683715028</p>
+                        <p class="hide">Programadora Web Full Stack</p>
+                        <p class="edit-button"><button type="button">Editar</button></p>                 
+                        <span class="more-span"><i class="fa-solid fa-ellipsis"></i></span>
+
+                    </label>
+
+                    <input type="radio" name="accordion" id="third">
+                    <div class="content">
+
+                            <p><span>Nombre y Apellido</span> Sara Valentina Latyn</p>
+                            <p><span>DNI</span> 123456789</p>
+                            <p><span>Email</span> latynsara@gmail.com</p>
+                            <p><span>Número de teléfono</span> 123456789</p>
+                            <p><span>Fecha de Nacimiento</span> 05/07/1997</p>
+                            <p><span>Sure</span> ?????</p>
+                            <p><span>Matrícula</span> ?????</p>
+                            <p><span>CBU</span> 73593753438749742</p>
+                            <p><span>Fee</span> $49873</p>
+                            <p><span>Profesión</span> Programadora</p>
+
+                    </div>
+                </li>
+            </ul>
+
+            <ul id="accordion">
+                <li>
+                    <label for="forth" class="ul-data">
+                        
+                        <p class="id-li">#1</p>
+                        <p>Sara Valentina Latyn</p>
+                        <p class="hide-contact">+4917683715028</p>
+                        <p class="hide">Programadora Web Full Stack</p>
+                        <p class="edit-button"><button type="button">Editar</button></p>                 
+                        <span class="more-span"><i class="fa-solid fa-ellipsis"></i></span>
+
+                    </label>
+
+                    <input type="radio" name="accordion" id="forth">
+                    <div class="content">
+
+                            <p><span>Nombre y Apellido</span> Sara Valentina Latyn</p>
+                            <p><span>DNI</span> 123456789</p>
+                            <p><span>Email</span> latynsara@gmail.com</p>
+                            <p><span>Número de teléfono</span> 123456789</p>
+                            <p><span>Fecha de Nacimiento</span> 05/07/1997</p>
+                            <p><span>Sure</span> ?????</p>
+                            <p><span>Matrícula</span> ?????</p>
+                            <p><span>CBU</span> 73593753438749742</p>
+                            <p><span>Fee</span> $49873</p>
+                            <p><span>Profesión</span> Programadora</p>
+
+                    </div>
+                </li>
+            </ul>
+
+            <ul id="accordion">
+                <li>
+                    <label for="fifth" class="ul-data">
+                        
+                        <p class="id-li">#1</p>
+                        <p>Sara Valentina Latyn</p>
+                        <p class="hide-contact">+4917683715028</p>
+                        <p class="hide">Programadora Web Full Stack</p>
+                        <p class="edit-button"><button type="button">Editar</button></p>                 
+                        <span class="more-span"><i class="fa-solid fa-ellipsis"></i></span>
+
+                    </label>
+
+                    <input type="radio" name="accordion" id="fifth">
+                    <div class="content">
+
+                            <p><span>Nombre y Apellido</span> Sara Valentina Latyn</p>
+                            <p><span>DNI</span> 123456789</p>
+                            <p><span>Email</span> latynsara@gmail.com</p>
+                            <p><span>Número de teléfono</span> 123456789</p>
+                            <p><span>Fecha de Nacimiento</span> 05/07/1997</p>
+                            <p><span>Sure</span> ?????</p>
+                            <p><span>Matrícula</span> ?????</p>
+                            <p><span>CBU</span> 73593753438749742</p>
+                            <p><span>Fee</span> $49873</p>
+                            <p><span>Profesión</span> Programadora</p>
+
+                    </div>
+                </li>
+            </ul>
 
         </section>
 
